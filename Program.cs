@@ -5,12 +5,12 @@ namespace Csharp_Essential_Training_One
 {
     class Program
     {
+        enum weekDays { Monday = 1, Tuesday = 2, Wednesday = 3, Thursday = 4, Friday = 5 };
+        
         static void Main(string[] args)
         {
-            var city = "Dallas";
-            var temperature = 103.4f;
-            var currentDt = DateTime.Now;
-            Console.WriteLine(string.Format("Welcome to {0}. The time is {1:t}. The temperature is {2:0.00}.", city, currentDt, temperature));
+            var someTime = new DateTime(2021, 08, 29, 23, 30, 30);
+            Console.WriteLine(someTime.ToLongDateString());
         }
     }
 }
