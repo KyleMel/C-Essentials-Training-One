@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Csharp_Essential_Training_One
+namespace SchoolLibrary
 {
-    class Teacher : Person
+    public class Teacher : Person
     {
         public string Subject { get; set; }
 

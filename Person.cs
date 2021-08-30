@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Csharp_Essential_Training_One
+namespace SchoolLibrary
 {
     public abstract class Person
     {
