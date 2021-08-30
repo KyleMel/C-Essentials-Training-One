@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolLibrary
 {
-    class School
+    public class School
     {
         public string Name { get; set; }
         public string Address { get; set; }
@@ -14,7 +14,7 @@ namespace SchoolLibrary
         public string State { get; set; }
         public string Zip { get; set; }
         public string PhoneNumber { get; set; }
-        private string _twitterAddress;
+        public string _twitterAddress;
         public string TwitterAddress
         {
             //make sure the twitter address starts with an @
