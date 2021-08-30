@@ -8,6 +8,7 @@ namespace SchoolLibrary
 {
     public class School
     {
+        public static void Main() { }
         public string Name { get; set; }
         public string Address { get; set; }
         public string City { get; set; }

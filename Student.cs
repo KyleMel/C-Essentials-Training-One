@@ -8,7 +8,11 @@ namespace Csharp_Essential_Training_One
 {
     public class Student : Person
     {
-        public enum GradeLevels { Freshman, Sophmore, Junior, Senior}
+        public enum GradeLevels { Freshman, Sophmore, Junior, Senior }
         public GradeLevels GradeLevel { get; set; }
+        public override float ComputeGradeAverage()
+        {
+            return 4.0f;
+        }
     }
 }

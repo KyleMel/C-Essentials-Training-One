@@ -12,5 +12,7 @@ namespace Csharp_Essential_Training_One
         public string LasstName { get; set; }
         public string Email { get; set; }
 
+        public abstract float ComputeGradeAverage();
+
     }
 }

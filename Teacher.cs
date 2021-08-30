@@ -9,5 +9,11 @@ namespace Csharp_Essential_Training_One
     class Teacher : Person
     {
         public string Subject { get; set; }
+
+        public override float ComputeGradeAverage()
+        {
+            //TODO fix implementation
+            return 0.0f;
+        }
     }
 }
